@@ -26,7 +26,7 @@ The permitted face-mask dataset is included under `data/face_mask_dataset`. Down
 python train.py --workers 0 --batch-size 4 --device 0 --data data/face_mask.yaml --img 640 --cfg cfg/training/yolov7-face_mask.yaml --weights yolov7_training.pt --name yolov7-face_mask --hyp data/hyp.scratch.custom.yaml --epochs 300
 ```
 
-Training outputs and checkpoints are generated locally under `runs/` and are not included. Other official YOLOv7 model weights are also intentionally excluded; download the ones you need from the upstream release.
+The custom-trained `yolov7-mask.pt` and `yolov7-w6-pose.pt` checkpoints are included under `weights/` and tracked with Git LFS. Generated training outputs under `runs/` are local only. Other official YOLOv7 model weights are intentionally excluded; download the ones you need from the upstream release.
 
 The source code is distributed under the GNU GPL v3 in `LICENSE.md`. Dataset redistribution permission was confirmed by the project owner.
 

@@ -62,6 +62,8 @@ val2017.zip
 # Neural Network weights -----------------------------------------------------------------------------------------------
 *.weights
 *.pt
+!weights/yolov7-mask.pt
+!weights/yolov7-w6-pose.pt
 *.pb
 *.onnx
 *.engine
